@@ -21,9 +21,9 @@
 		
   2. Create Lambda functions
   
-      **2.1** Create Nodejs Lambda "ProcesseDetailsDynamoDB_Node_js" for getting details from DynamoDB
+      **2.1** Create Nodejs Lambda "ProcesseDetailsDynamoDB_Node_js" for getting details from DynamoDB and add "AmazonDynamoDBReadOnlyAccess" managed IAM policy 
       
-      **2.2** Create Python Lambda "SetDetailsDynamoDB" for writing details to DynamoDB
+      **2.2** Create Python Lambda "SetDetailsDynamoDB" for writing details to DynamoDB and add "AmazonDynamoDBFullAccess" managed IAM policy
 
   3. Create API gateway
   
