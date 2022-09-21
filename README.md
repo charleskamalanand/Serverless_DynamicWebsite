@@ -76,19 +76,17 @@
 	
        **4.4**  Upload "jquery-3.1.1.min","knockout-3.4.2","index.html" and "userDetails.html"
    
-5. Access the website
+  5. Access the website
 
       **5.1**  Use "userDetails.html" to upload user details
       
       **5.2**  Use "index.html" to access user details
 
+## Youtube references
 
 <!-- YOUTUBE:START -->
-- [Coinbase Hacked! $16,308 Stolen - Don’t let this happen to you!!](https://www.youtube.com/watch?v=1GJkuRa1PjM)
-- [Learning to Code is NOT Hard!!](https://www.youtube.com/watch?v=5jzIjU7Ed9o)
-- [12 ways to center a div](https://www.youtube.com/watch?v=WM02RIeE1Fs)
-- [How to center a div 12 ways!!](https://www.youtube.com/watch?v=kphds-1V9o8)
-- [JavaScript Variables](https://www.youtube.com/watch?v=oXegXhqGQ30)
+- [Get User details from DynamoDB](https://www.youtube.com/watch?v=PzNQXYWQQ7c)
+- [Upload User details to DynamoDB](https://www.youtube.com/watch?v=n5XFPLo4Bbw&t=2692s)
 <!-- YOUTUBE:END -->
 
 
