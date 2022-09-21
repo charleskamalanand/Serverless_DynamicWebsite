@@ -6,8 +6,9 @@
 </p>
 
 # Steps to replicate
-1. Setup S3 public bucket
-	1.1 Create a public bucket with below bucket policy
+ 1. Setup S3 public bucket
+
+	**1.1** Create a public bucket with below bucket policy
 	```bash
 	{
     "Version": "2012-10-17",
@@ -25,15 +26,15 @@
     ]
 	}
 	```
-	1.2 Edit "userDetails.html" and modify the below in line 41 to add API gateway connection url "
+	**1.2**  Edit "userDetails.html" and modify the below in line 41 to add API gateway connection url "
 	```bash
 	fetch("#API_gateway_Connection_URL#/dev", requestOptions)"
 	```
-	1.3 Edit "index.html" and modify the below in line 22 to add API gateway connection url "
+	**1.3**  Edit "index.html" and modify the below in line 22 to add API gateway connection url "
 	```bash
 	url: '#API_gateway_Connection_URL#/dev',
 	```
-	1.4 Upload "jquery-3.1.1.min","knockout-3.4.2","index.html" and "userDetails.html"
+	**1.4**  Upload "jquery-3.1.1.min","knockout-3.4.2","index.html" and "userDetails.html"
 
 <!-- 1. item1
 1. item2
