@@ -8,11 +8,17 @@
 # Steps to replicate
   
   1. Setup DynamoDB
-	**1.1** Create Table UserDetails with below fields with least provisioned capacity
+  
+     **1.1** Create Table "UserDetails" with below fields with least provisioned capacity
+     
 		**i.** EmailID as String and as a Partition key
+		
 		**ii.** FName as String
+		
 		**iii.** LName as String
+		
 		**iv.** LastestGreetingTime as String
+		
 		
   2. Create Lambda functions
 	**2.1** Create Nodejs Lambda "ProcesseDetailsDynamoDB_Node_js" for getting details from DynamoDB
