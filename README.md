@@ -77,7 +77,9 @@
        **4.4**  Upload "jquery-3.1.1.min","knockout-3.4.2","index.html" and "userDetails.html"
    
 5. Access the website
+
       **5.1**  Use "userDetails.html" to upload user details
+      
       **5.2**  Use "index.html" to access user details
 <!-- 1. item1
 1. item2
