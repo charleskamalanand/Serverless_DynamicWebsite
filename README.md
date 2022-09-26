@@ -1,3 +1,7 @@
+## Highlights
+
+* Explains how to integrate various serverless components for creating dynamic webpage.
+* Uses different webpage for entering and retreving user details from dynamoDB
 
 ## Architecture
 <p align="center">
@@ -67,6 +71,8 @@
        **4.2**  Edit "userDetails.html" and modify the below in line 41 to add API gateway connection url   
         ```bash
 		fetch("#API_gateway_Connection_URL#/dev", requestOptions)"
+				to be replaced to something similar to below
+		fetch("https://50opsp1bk2.execute-api.us-east-1.amazonaws.com/dev", requestOptions)				
 		```
 	
        **4.3**  Edit "index.html" and modify the below in line 22 to add API gateway connection url  
